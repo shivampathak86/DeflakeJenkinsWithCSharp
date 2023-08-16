@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTestResult", "ReadTestResult\ReadTestResult.csproj", "{92D1FEF9-99E9-4E3F-8A9C-26A357BCECEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRXFileMerge", "TRXFileMerge\TRXFileMerge.csproj", "{6F97264E-2296-49D8-8038-0EE28B79788B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92D1FEF9-99E9-4E3F-8A9C-26A357BCECEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D1FEF9-99E9-4E3F-8A9C-26A357BCECEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D1FEF9-99E9-4E3F-8A9C-26A357BCECEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D1FEF9-99E9-4E3F-8A9C-26A357BCECEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F97264E-2296-49D8-8038-0EE28B79788B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F97264E-2296-49D8-8038-0EE28B79788B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F97264E-2296-49D8-8038-0EE28B79788B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F97264E-2296-49D8-8038-0EE28B79788B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55BCADA7-072D-407B-813F-16E4E72DB00B}
+	EndGlobalSection
+EndGlobal

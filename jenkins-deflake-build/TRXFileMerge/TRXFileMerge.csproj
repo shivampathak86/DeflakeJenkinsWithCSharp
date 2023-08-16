@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>exe</OutputType>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<PackageId>TRXFileMerge</PackageId>
+		<Version>1.1.2</Version>
+		<Authors>Priya Singh</Authors>
+		<Company>Leadventure</Company>
+		<Product>ReadTestResult</Product>
+		<Description>TRXFileMerger is a command line tool that allows you to combine two trx-Testresults</Description>
+		<PackageTags>TRX</PackageTags>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<IncludeBuildOutput>True</IncludeBuildOutput>
+		<IncludeContentInPack>True</IncludeContentInPack>
+		<EnableTargetingPackDownload>True</EnableTargetingPackDownload>
+		<SelfContained>False</SelfContained>
+		<PublishTrimmed>True</PublishTrimmed>
+		<EnableDynamicLoading>True</EnableDynamicLoading>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="TRXFileMerge.runtimeconfig.json">
+			<PackageCopyToOutput>True</PackageCopyToOutput>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ReadTestResult\ReadTestResult.csproj" />
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningsAsErrors />
+	</PropertyGroup>
+
+</Project>
